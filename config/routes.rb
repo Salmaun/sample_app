@@ -1,4 +1,9 @@
 SampleApp::Application.routes.draw do
+  get "pages/home"       # maps requests for the URL /pages/home to the home
+                         # action in the pages controller
+
+  get "pages/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
